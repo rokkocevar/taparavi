@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77a9ce47-eeeb-4924-95b3-a4b06a68908d" name="Changes" comment="authenticate navbar">
+    <list default="true" id="77a9ce47-eeeb-4924-95b3-a4b06a68908d" name="Changes" comment="refaktoiranje helperjev">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
@@ -139,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635850362229</updated>
       <workItem from="1635850364468" duration="109000" />
-      <workItem from="1643018603708" duration="7198000" />
+      <workItem from="1643018603708" duration="7605000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1643020569644</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643025124713</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refaktoiranje helperjev">
+      <created>1643026209291</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643026209291</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +229,7 @@
     <MESSAGE value="user" />
     <MESSAGE value="navbar" />
     <MESSAGE value="authenticate navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="authenticate navbar" />
+    <MESSAGE value="refaktoiranje helperjev" />
+    <option name="LAST_COMMIT_MESSAGE" value="refaktoiranje helperjev" />
   </component>
 </project>
