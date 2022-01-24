@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77a9ce47-eeeb-4924-95b3-a4b06a68908d" name="Changes" comment="user">
+    <list default="true" id="77a9ce47-eeeb-4924-95b3-a4b06a68908d" name="Changes" comment="authenticate navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/posts_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/posts_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635850362229</updated>
       <workItem from="1635850364468" duration="109000" />
-      <workItem from="1643018603708" duration="4014000" />
+      <workItem from="1643018603708" duration="6251000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1643020569644</created>
@@ -175,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643022146999</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="navbar">
+      <created>1643022698787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643022698787</updated>
+    </task>
+    <task id="LOCAL-00007" summary="authenticate navbar">
+      <created>1643022917797</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643022917798</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +216,8 @@
     <MESSAGE value="establish user post conn" />
     <MESSAGE value="use to post creation" />
     <MESSAGE value="user" />
-    <option name="LAST_COMMIT_MESSAGE" value="user" />
+    <MESSAGE value="navbar" />
+    <MESSAGE value="authenticate navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="authenticate navbar" />
   </component>
 </project>
