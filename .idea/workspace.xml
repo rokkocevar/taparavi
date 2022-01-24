@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77a9ce47-eeeb-4924-95b3-a4b06a68908d" name="Changes" comment="establish user post conn">
-      <change beforePath="$PROJECT_DIR$/app/models/post.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/post.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+    <list default="true" id="77a9ce47-eeeb-4924-95b3-a4b06a68908d" name="Changes" comment="use to post creation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635850362229</updated>
       <workItem from="1635850364468" duration="109000" />
-      <workItem from="1643018603708" duration="2990000" />
+      <workItem from="1643018603708" duration="3376000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1643020569644</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643021591134</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="use to post creation">
+      <created>1643021854820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643021854820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +189,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="devise" />
     <MESSAGE value="establish user post conn" />
-    <option name="LAST_COMMIT_MESSAGE" value="establish user post conn" />
+    <MESSAGE value="use to post creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="use to post creation" />
   </component>
 </project>
