@@ -10,7 +10,7 @@
 
   test:
     <<: *default
-    database: proj_test
+    database: postgres
 
   # As with config/credentials.yml, you never want to store sensitive information,
   # like your database password, in your source code. If your source code is
@@ -34,6 +34,6 @@
   #
   production:
     <<: *default
-    database: rokpro_production
-    username: rokpro
-    password: <%= ENV['ROKPRO_DATABASE_PASSWORD'] %>
+    database: postgres
+    username: postgres
+
