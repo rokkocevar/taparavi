@@ -9,6 +9,7 @@
   <strong>Body:</strong>
   <%= @post.body %>
 </p>
+<%= image_tag(@post.photo, width: 200) if @post.photo.attached? %>
 <p>
   <strong>Avtor:</strong>
   <%= @post.user.name %>

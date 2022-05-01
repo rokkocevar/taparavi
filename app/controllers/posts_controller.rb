@@ -18,7 +18,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
-    raise @post.to_yaml
+
   end
 
   # POST /posts or /posts.json
@@ -67,7 +67,7 @@ class PostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def post_params
-      params.require(:post).permit(:title, :body)
+      params.require(:post).permit(:title, :body, :photo)
     end
   def authorize_user!
     redirect_back fallback_location: root_path, alert: 'Nimate dostopa do te strani.' unless current_user == @post.user

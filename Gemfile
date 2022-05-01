@@ -31,7 +31,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'devise'
 
-
+gem 'aws-sdk-s3', require: false
 
 gem 'omniauth-rails_csrf_protection'
 group :development, :test do
