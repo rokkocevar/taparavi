@@ -12,14 +12,38 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :title %>
+    <%= form.label :znamka %>
     <%= form.text_field :title, required: true %>
+  </div>
+  <div class="field">
+    <%= form.label :model %>
+    <%= form.text_field :model, required: true %>
   </div>
 
   <div class="field">
-    <%= form.label :body %>
+    <%= form.label :cena %>
+    <%= form.number_field :cena, required: true, placeholder: 'Cena v €' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :moč  %>
+    <%= form.number_field :hp, required: true%>
+  </div>
+  <div class="field">
+    <%= form.label :prevozeni  %>
+    <%= form.number_field :km, required: true%>
+  </div>
+  <div class="field">
+    <%= form.label :letnik  %>
+    <%= form.number_field :letnik, required: true%>
+  </div>
+  <div class="field">
+    <%= form.label :opis %>
     <%= form.text_field :body, required: true %>
   </div>
+
+
+
   <div class="field">
     <%= form.file_field :photo %>
     </div>

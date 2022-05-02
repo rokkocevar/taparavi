@@ -67,7 +67,7 @@ class PostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def post_params
-      params.require(:post).permit(:title, :body, :photo)
+      params.require(:post).permit(:title, :body, :photo, :hp, :cena, :model, :km, :letnik)
     end
   def authorize_user!
     redirect_back fallback_location: root_path, alert: 'Nimate dostopa do te strani.' unless current_user == @post.user

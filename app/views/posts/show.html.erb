@@ -1,17 +1,37 @@
 
 
 <p>
-  <strong>Title:</strong>
+  <strong>znamka:</strong>
   <%= @post.title %>
 </p>
-
 <p>
-  <strong>Body:</strong>
+  <strong>model:</strong>
+  <%= @post.model %>
+</p>
+<p>
+  <strong>cena:</strong>
+  <%= @post.cena %> €
+</p>
+<p>
+  <strong>moč:</strong>
+  <%= @post.hp %> kw
+</p>
+<p>
+  <strong>prevoženi:</strong>
+  <%= @post.km %> km
+</p>
+<p>
+  <strong>letnik:</strong>
+  <%= @post.letnik %>
+</p>
+<p>
+  <strong>opis:</strong>
   <%= @post.body %>
 </p>
+
 <%= image_tag(@post.photo, width: 200) if @post.photo.attached? %>
 <p>
   <strong>Avtor:</strong>
-  <%= @post.user.name %>
+  <%= @post.user.email %>
 </p>
 <%= display_show_post_links(@post) %>
