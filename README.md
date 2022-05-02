@@ -15,3 +15,10 @@ Features
     Admin panel for admin users.
     
    https://media.discordapp.net/attachments/541267995704688660/970710155723415552/unknown.png?width=1173&height=660
+   
+   
+   https://media.discordapp.net/attachments/541267995704688660/970710210165489694/unknown.png?width=1173&height=660
+
+
+
+https://media.discordapp.net/attachments/541267995704688660/970710331674468422/unknown.png?width=1173&height=660
