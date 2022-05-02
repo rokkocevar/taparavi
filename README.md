@@ -14,5 +14,4 @@ Features
     Responsive theme
     Admin panel for admin users.
     
-    ![image](https://user-images.githubusercontent.com/64775667/166261439-4ea0e47a-53a5-4f46-b45b-e33fa71ea186.png)
-
+   https://media.discordapp.net/attachments/541267995704688660/970710155723415552/unknown.png?width=1173&height=660
