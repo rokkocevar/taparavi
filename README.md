@@ -1,24 +1,27 @@
-# README
+avti
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+avti is a web app made in Ruby on rails for my class RPA.
+Live preview
 
-Things you may want to cover:
+A live version of the application is hosted on www.avti.menih.top
+link do spletne strani nebo deloval zaradi herokota in njegovih serverjev`
+Features
 
-* Ruby version
+    Account registration and login with the Devise Gem.
+    CRUD of Listings.
+    Image upload through AWS S3 service.
+    Facebook user login.
+    Responsive theme
+    Admin panel for admin users.
+    
+   https://media.discordapp.net/attachments/541267995704688660/970710155723415552/unknown.png?width=1173&height=660
+   
+   
+   https://media.discordapp.net/attachments/541267995704688660/970710210165489694/unknown.png?width=1173&height=660
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+https://media.discordapp.net/attachments/541267995704688660/970710331674468422/unknown.png?width=1173&height=660
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+thanks for checking my simple website =)
