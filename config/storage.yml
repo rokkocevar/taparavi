@@ -1,34 +1,32 @@
+local:
+  service: Disk
+  root: <%= Rails.root.join("storage") %>
 
 test:
   service: Disk
   root: <%= Rails.root.join("tmp/storage") %>
 
-local:
-  service: Disk
-  root: <%= Rails.root.join("storage") %>
-
-# Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
-amazon_development:
+amazon_dev:
   service: S3
-  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
-  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  access_key_id: <%= ENV['ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['SECRET_ACCESS_KEY'] %>
   region: 'eu-central-1'
   bucket: <%= ENV['BUCKET'] %>
 
-amazon_production:
+amazon_prod:
   service: S3
-  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
-  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  access_key_id: <%= ENV['ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['SECRET_ACCESS_KEY'] %>
   region: 'eu-central-1'
   bucket: <%= ENV['BUCKET'] %>
-
 
 amazon:
   service: S3
-  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
-  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  access_key_id: <%= ENV['ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['SECRET_ACCESS_KEY'] %>
   region: 'eu-central-1'
   bucket: <%= ENV['BUCKET'] %>
+
 
 
 # Remember not to checkin your GCS keyfile to a repository
