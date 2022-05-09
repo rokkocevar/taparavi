@@ -10,19 +10,24 @@ local:
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 amazon_development:
   service: S3
-  access_key_id: <%= ENV['access_key_id'] %>
-  secret_access_key: <%= ENV['secret_access_key'] %>
-  region: <%= ENV['s3_region'] %>
-  bucket: <%= ENV['rok-master--bucket-dev'] %>
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  region: <%= ENV['AWS_REGION'] %>
+  bucket: <%= ENV['S3_BUCKET'] %>
 
 amazon_production:
   service: S3
-  access_key_id: <%= ENV['access_key_id'] %>
-  secret_access_key: <%= ENV['secret_access_key'] %>
-  region: <%= ENV['s3_region'] %>
-  bucket: <%= ENV['rok-master--bucket-pro'] %>
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  region: <%= ENV['AWS_REGION'] %>
+  bucket: <%= ENV['S3_BUCKET'] %>
 
-
+amazon:
+  service: S3
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  region: <%= ENV['AWS_REGION'] %>
+  bucket: <%= ENV['S3_BUCKET'] %>
 
 
 # Remember not to checkin your GCS keyfile to a repository
