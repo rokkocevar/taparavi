@@ -3,8 +3,8 @@ avti
 avti is a web app made in Ruby on rails for my class RPA.
 Live preview
 
-A live version of the application is hosted on www.avti.menih.top
-link do spletne strani nebo deloval zaradi herokota in njegovih serverjev`
+A live version of the application is hosted on https://www.avti.menih.top/
+
 Features
 
     Account registration and login with the Devise Gem.
